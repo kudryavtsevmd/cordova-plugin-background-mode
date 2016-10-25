@@ -33,14 +33,14 @@
     </js-module>
 
     <!-- ios -->
-    <platform name="ios">
+    <!--<platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="BackgroundMode">
                 <param name="ios-package" value="APPBackgroundMode" />
             </feature>
         </config-file>
 
-        <!-- The app is able to run in background through audio mode -->
+        &lt;!&ndash; The app is able to run in background through audio mode &ndash;&gt;
         <config-file target="*-Info.plist" parent="UIBackgroundModes">
             <array>
                 <string>audio</string>
@@ -51,7 +51,7 @@
 
         <header-file src="src/ios/APPBackgroundMode.h" />
         <source-file src="src/ios/APPBackgroundMode.m" />
-    </platform>
+    </platform>-->
 
     <!-- android -->
     <platform name="android">
